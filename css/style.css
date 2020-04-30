@@ -1,0 +1,265 @@
+body{
+margin:0;
+padding: 0;
+}
+/*header start*/
+header{
+background-image: url(../images/header.png);
+padding: 30px 0px 390px 0px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.wrapper{
+overflow: hidden;
+width: 80%;
+/*border:1px solid red;*/
+margin: 0 auto;
+}
+.logo{
+width: 20%;
+/*border:1px solid red;*/
+float: left;
+}
+.logo a{
+	font-family: Mistral;
+    line-height: 82px;
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+}
+.menu{
+width: 60%;
+margin-top: 30px;
+/*border:1px solid red;*/
+float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+float: left;
+list-style: none;
+}
+.menu ul li a{
+font-family: Century Gothic;
+font-size: 14px;
+color: white;
+letter-spacing: 1px;
+padding: 0 13px;
+transition: .5s;
+text-decoration: none;
+text-transform: uppercase;
+display: block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #cc0033;
+}
+.banner_content {
+
+}
+.banner_content h1{
+	text-align: center;
+    font-family: Mistral;
+    font-size: 75px;
+    font-weight: 400;
+    color: white;
+}
+/*header ending*/
+/*section start */
+.intro {
+}
+
+.intro_left {
+width: 40%;
+float: left;
+}
+.intro_left h1{
+font-family: sans-serif;
+    font-size: 32px;
+    color: #192c54;
+    margin-top: 65px;
+    line-height: 5px;
+}
+.intro_left p{
+	font-family: sans-serif;
+    font-size: 15px;
+    color: #192c54;
+    margin-bottom: 65px;
+}
+.intro_right {
+width: 40%;
+float: right;
+margin: 101px -166px 90px 0px;
+}
+
+.button01 {
+	padding: 16px 26px 16px 26px;
+    /*border: 1px solid #fee21d;*/
+    background-color: #fee21d;
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+.button02 {
+	padding: 15px 25px 15px 25px;
+    border: 1px solid #192c54;
+    /*background-color: #fee21d;*/
+    color: #192c54;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+/*section end */
+/*service section*/
+.service {
+	background-color: #ff4948;
+	overflow: hidden;
+}
+
+.single {
+	width: 30%;
+	float: left;
+	color: white;
+	font-family: Century Gothic;
+	padding: 0px 22px 0px 20px;
+	margin: 50px 0px 50px 0px;
+}
+.single h1{
+	font-size: 75px;
+    font-weight: 400;
+        margin: 0px;
+}
+.single h2{
+	margin: 0px 0px 7px 0px;
+    padding: 0px;
+}
+.single p{
+	margin: 0px;
+    padding: 0px;
+}
+.single:last-child{
+padding-right: 0px;
+}
+/*service section*/
+/*client section*/
+.client {
+
+}
+.client01 {
+width: 40%;
+float: left;
+margin: 130px 0px;
+padding: 0px;
+text-align: center;
+font-family: century;
+}
+.client01 p{
+
+}
+.client01 h1{
+    font-size: 20px;
+}
+.client01 h2{
+    font-size: 13px;
+        margin: -11px 0px;
+}
+
+.client02 {
+width: 40%;
+float: right;
+margin: 40px 0px;
+}
+.client02 img{
+width: 100%;
+}
+/*client section*/
+/*contact section*/
+.contact {
+    text-align: center;
+    background-color: #ff4948;
+    margin: 0px 0;
+    padding: 96px 0;
+}
+.buttons{
+	    padding: 20px;
+}
+.contact_button01 {
+padding: 16px 26px 16px 26px;
+    /*border: 1px solid #fee21d;*/
+    background-color: #fee21d;
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+
+.contact_button02 {
+padding: 15px 25px 15px 25px;
+    border: 1px solid #192c54;
+    /*background-color: #fee21d;*/
+    color: #192c54;
+    background-color: white;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+
+.contact_button03 {
+padding: 16px 26px 16px 26px;
+    /*border: 1px solid #fee21d;*/
+    background-color: #071a3b;
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;	
+}
+/*contact section*/
+/*footer section*/
+.footer {
+}
+.client_description {
+	    margin-top: 60px;
+	    overflow: hidden;
+}
+
+.cli_img {
+	width: 12%;
+	float: left;
+	margin-left: 400px;
+}
+.cli_img img{
+	    width: 100%;
+}
+
+.cli_name {
+	width: 12%;
+    margin-right: 400px;
+	float: right;
+	
+}
+.cli_name h1{
+font-family: century;
+    font-size: 23px;
+}
+.cli_name h2{
+    font-family: century;
+    font-size: 15px;
+    font-weight: 100;
+        margin-top: -17px;
+
+}
+
+.client_satisfiction {
+	background-color: #ff4948;
+    width: 23%;
+    text-align: center;
+    padding: 5px;
+    margin-left: 39%;
+    margin-bottom: 60px;
+
+}
+.client_satisfiction p{
+	font-family: monospace;
+    color: white;
+}
+/*footer section*/
